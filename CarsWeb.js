@@ -33,8 +33,8 @@ if( age <= 40){
 else if( age > 40){
   alert("I advice you to read more about Volkswagen and Toyota ")
 }
-else{
-  alert("Enjoy our Website")
+else if(age == null){
+  alert("Enjoy")
 
 }
 
