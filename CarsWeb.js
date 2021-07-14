@@ -1,6 +1,6 @@
 var name = prompt("whar is your name?")
 
- alert("Hello"+" "+ name + " Welcome to my Website")
+ alert("Hello"+" "+ name + " Welcome to our Website")
 
  var favoriteCar = prompt("What is your favorite car?")
 
@@ -27,11 +27,15 @@ document.write(" Welcom " + name)
 
 
 
-if(age <= 40){
+if( age <= 40){
   alert("I advice you to read more about Mercedes and Toyota ")
 }
-else if(age > 40){
+else if( age > 40){
   alert("I advice you to read more about Volkswagen and Toyota ")
+}
+else{
+  alert("Enjoy our Website")
+
 }
 
 
