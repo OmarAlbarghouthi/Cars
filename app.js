@@ -1,5 +1,4 @@
-
- var name = prompt("whar is your name?")
+var name = prompt("whar is your name?")
 
  alert("Hello"+" "+ name + " Welcome to my Website")
 
@@ -39,6 +38,7 @@ else if(age > 40){
 
 //-------------------------------------------------------
 //no need to read the comments below
+
 
 
 
@@ -154,6 +154,7 @@ else if(age > 40){
 
 
 // */
+
 //  var name = prompt("whar is your name?")
 
 
@@ -166,6 +167,20 @@ else if(age > 40){
 // document.write('<p>' + favCar + '<p>')
 
 //  document.write("hello from javascript")
+
+// // var name = prompt("whar is your name?")
+
+
+// // alert("hey"+" "+ name + " welcome to my Website")
+
+// // var favCar = prompt("what is your fav car?")
+
+// // console.log(name)
+
+// // document.write('<p>' + favCar + '<p>')
+
+// // document.write("hello from javascript")
+
 
 
 // // logical op ex
