@@ -1,0 +1,54 @@
+body{
+background-color: pink;
+
+
+}
+
+
+header{
+  background-color: rgba(232, 253, 245, 0.877);
+  height: 200px;
+  padding: 10px;
+  padding-left: 500px;
+}
+
+#head3{
+  background-color: rgba(255, 255, 0, 0.562);
+  margin-right: 1040px;
+  height: 30px;
+
+  
+}
+#head4-3{
+  background-color: rgba(255, 255, 0, 0.562);
+  margin-right: 1250px;
+}
+
+#head4-2{
+  background-color: rgba(255, 255, 0, 0.562);
+  margin-right: 1230px;
+}
+
+#head4-1{
+  background-color: rgba(255, 255, 0, 0.562);
+  margin-right: 1210px;
+}
+
+  
+#head5-3{
+padding-left: 100px;
+margin-right: 300px;
+margin-left: 5px;
+
+}
+#head5-2{
+padding-left: 100px;
+margin-right: 300px;
+margin-left: 5px;
+}
+
+#head5-1{
+padding-left: 100px;
+margin-right: 300px;
+margin-left: 5px;
+}

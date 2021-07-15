@@ -33,8 +33,8 @@ if( age <= 40){
 else if( age > 40){
   alert("I advice you to read more about Volkswagen and Toyota ")
 }
-else{
-  alert("Enjoy our Website")
+else if(age == null){
+  alert("Enjoy")
 
 }
 
@@ -85,6 +85,7 @@ else{
 //  * var name = "Omar"
 //  * 
 //  */
+console.log(4 + '2')
 
 
 // // Operators
@@ -127,9 +128,10 @@ else{
 
 // // console.log(z, "y" , y)
 
-// // console.log(1==1 , 1=="1" , 1=='10')
+// console.log(1==1 , 1=="1" , 1=='10')
 
-// // console.log(1===1 , 1==='1')
+// console.log(1===1 , 1==='1')
+
 
 // /*
 // pop up boxes
