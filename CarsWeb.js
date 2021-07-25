@@ -2,41 +2,80 @@ var name = prompt("whar is your name?")
 
  alert("Hello"+" "+ name + " Welcome to our Website")
 
- var favoriteCar = prompt("What is your favorite car?")
+ if(name == "Omar"){
+ document.write("Welcome Boss Omar")
+ }
+ else{
+ document.write(" Welcom " + name)
+ }
 
- if(favoriteCar == "Mercedes"|| favoriteCar =="Toyota" || favoriteCar == "Volkswagen"){
+var favoriteCar = prompt("What is your favorite car?, please choose one of these: 1- Mercedes 2-Toyota 3-Volkswagen ")
+
+ function userFavoriteCar(favoriteCar){
+
+
+ while(favoriteCar == "Mercedes" && favoriteCar =="Toyota" && favoriteCar == "Volkswagen"){
+
+   var favoriteCar = prompt("What is your favorite car?, please choose one of these: 1- Mercedes 2-Volkswagen 3-Toyota ")
+
 alert("Wow, Nice choice! " + name)
 }
-else{
-  alert("Amazing, " + name)
-}
 
 
-var age = prompt(" How old are you? ")
+  var numberOfPics = prompt("how many times you wish to see it ")
+
+ while(numberOfPics >5 ){
+  numberOfPics = prompt("please enter number less than 5!")
+ }
+
+
+ if(favoriteCar == "Mercedes"){
+
+ 
+ for(var i = 0; i< numberOfPics;i++)
+
+ {document.write(
+  "<div>" + "<h3>" + favoriteCar+"</h3>"
+ + "<img  src='https://www.mbaskool.com/2018_images/top_brands/car_world/car_wrld03.jpg'     />" + "</div>")}
+ }
+ else if (favoriteCar =="Volkswagen"){
+
+ for(var i = 0 ; i <numberOfPics;i++)
+
+ {document.write(
+  "<div>" + "<h3>" + favoriteCar+"</h3>"
+ + "<img  src='https://www.mbaskool.com/2018_images/top_brands/car_world/car_wrld02.jpg'     />" + "</div>")}
+ }
+ else if(favoriteCar =="Toyota"){
+  for(var i = 0 ; i <numberOfPics;i++)
+ {document.write(
+  "<div>" + "<h3>" + favoriteCar+"</h3>"
+ + "<img  src='https://www.mbaskool.com/2018_images/top_brands/car_world/car_wrld01.jpg'      />" + "</div>")}
+ }
+
+ }
+
+ userFavoriteCar(favoriteCar);
+
+
+ function userAge(){
+
+ var age = prompt(" How old are you? ");
+ }
+
+ userAge();
+
+
+
 
  
 
- console.log(name)
-
-if(name == "Omar"){
-document.write("Welcome Boss Omar")
-}
-else{
-document.write(" Welcom " + name)
-}
+ 
 
 
 
-if( age <= 40){
-  alert("I advice you to read more about Mercedes and Toyota ")
-}
-else if( age > 40){
-  alert("I advice you to read more about Volkswagen and Toyota ")
-}
-else if(age == null){
-  alert("Enjoy")
 
-}
+
 
 
 
